@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CrickPro Scorecard</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+
+body {
+    margin: 0;
+    padding: 20px 60px;
+    font-family: Arial;
+    background-color: white;
+}
+
+.bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 65%;
+    opacity: 0.25;
+    z-index: -1;
+}
+
+.logo {
+    text-align: right;
+}
+
+.logo img {
+    width: 190px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+    text-shadow: 2px 3px 4px gray;
+}
+
+h2 {
+    color: gray;
+    margin-top: 5px;
+}
+
+.main {
+    width: 75%;
+    margin-top: 35px;
+    box-shadow: 0px 3px 8px lightgray;
+}
+
+.heading {
+    background-color: #f44935;
+    color: white;
+    padding: 14px 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+}
+
+.row div {
+    padding: 12px;
+    flex: 1;
+    font-size: 18px;
+    text-align: center;
+}
+
+.row .name {
+    flex: 2;
+    text-align: left;
+}
+
+.row .details {
+    flex: 3;
+    color: gray;
+    text-align: left;
+}
+
+.header {
+    background-color: #f5f5f5;
+}
+
+.header div {
+    color: black;
+}
+
+.blue {
+    color: #3985ff;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <img src="backgroud.png" class="bg">
+
+    <div class="logo">
+        <img src="logo.jpg"> 
+    </div>
+
+    <h1>ICC WORLD CUP 2011</h1>
+    <h2>India Vs SriLanka ScoreCard</h2>
+
+    <div class="main">
+
+        <div class="heading">
+            <b>India Innings</b>
+            <b>277 - 4 (48.2)</b>
+        </div>
+
+        <div class="row header">
+            <div class="name">Batsman</div>
+            <div class="details"></div>
+            <div>R</div>
+            <div>B</div>
+            <div>4s</div>
+            <div>6s</div>
+            <div>SR</div>
+        </div>
+
+        <div class="row">
+            <div class="name blue">Virender Sehwag</div>
+            <div class="details">lbw b L Malinga</div>
+            <div>0</div>
+            <div>2</div>
+            <div>0</div>
+            <div>0</div>
+            <div>0.00</div>
+        </div>
+
+        <div class="row">
+            <div class="name blue">Sachin Tendulkar</div>
+            <div class="details">c K Sangakkara b L Malinga</div>
+            <div>18</div>
+            <div>14</div>
+            <div>2</div>
+            <div>0</div>
+            <div>128.57</div>
+        </div>
+
+        <div class="row">
+            <div class="name blue">Gautam Gambhir</div>
+            <div class="details">b T Perera</div>
+            <div>97</div>
+            <div>122</div>
+            <div>9</div>
+            <div>0</div>
+            <div>79.51</div>
+        </div>
+
+        <div class="row">
+            <div class="name blue">Virat Kohli</div>
+            <div class="details">c & b T Dilshan</div>
+            <div>35</div>
+            <div>49</div>
+            <div>4</div>
+            <div>0</div>
+            <div>71.43</div>
+        </div>
+
+        <div class="row">
+            <div class="name blue">MS Dhoni (c & wk)</div>
+            <div class="details">not out</div>
+            <div>91</div>
+            <div>79</div>
+            <div>8</div>
+            <div>2</div>
+            <div>115.19</div>
+        </div>
+
+        <div class="row">
+            <div class="name blue">Yuvraj Singh</div>
+            <div class="details">not out</div>
+            <div>21</div>
+            <div>24</div>
+            <div>2</div>
+            <div>0</div>
+            <div>87.50</div>
+        </div>
+
+        <div class="row">
+            <div class="name">Extras</div>
+            <div class="details" style="flex: 6;">
+                15 (b 1, lb 6, w 8, nb 0, p 0)
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="name">Total</div>
+            <div class="details" style="flex: 6;">
+                277 (4 wkts, 48.2 Ov)
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="name">Did not bat</div>
+            <div class="details blue" style="flex: 6;">
+                Suresh Raina, Harbhajan Singh, Zaheer Khan,
+                Munaf Patel, S Sreesanth
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
